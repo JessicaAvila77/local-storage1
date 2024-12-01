@@ -9,7 +9,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         
-        <Route path='listaproveedor' element={<Proveedor/>}></Route>
+        <Route path='/' element={<Proveedor/>}></Route>
 
       </Routes>
     </BrowserRouter>

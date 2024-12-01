@@ -16,7 +16,7 @@ const alertaError = (mensaje) => {
 }
 
 //id es opcional se inicializa con un campo vacio por si no viene parametro
-const alertaWarming = (mensaje, id = '') => {
+const alertaWarning = (mensaje, id = '') => {
     onFocus(id)
 
     Swal.fire({
@@ -34,5 +34,6 @@ const onFocus = (id) => {
 export {
     alertaSuccess,
     alertaError,
-    alertaWarming
+    alertaWarning
+   
 }
